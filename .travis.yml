@@ -13,7 +13,7 @@ install:
 
 script:
 - PYTHONPATH=. timeout 05.0 ls
-- PYTHONPATH=. timeout 05.0 test.sh
+- PYTHONPATH=. timeout 05.0 ${TRAVIS_BUILD_DIR}/test.sh
 
 services:
   - docker
