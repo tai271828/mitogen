@@ -14,7 +14,7 @@ containers, e.g. it should not be firewalled or port forwarded.
 If in doubt, just install Docker on a Linux box in the default configuration
 and run the tests there.
 
-## Steps
+## Steps To Prepare Development Environment
 
 1. Get the code ``git clone https://github.com/dw/mitogen.git``
 1. Go into the working directory ``cd mitogen``
