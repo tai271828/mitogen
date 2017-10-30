@@ -12,6 +12,7 @@ install:
 - pip install -r dev_requirements.txt
 
 script:
+- PYTHONPATH=. timeout 05.0 ls
 - PYTHONPATH=. timeout 05.0 python test.py
 
 services:
